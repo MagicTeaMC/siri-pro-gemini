@@ -3,5 +3,7 @@ pillow
 requests
 beautifulsoup4
 google
-anthropic
+google-generativeai
 python-dotenv
+quart
+aiohttp

@@ -6,7 +6,7 @@ app = Quart(__name__)
 @app.route('/', methods=['GET'])
 async def index():
     print("# [server.py] [index] Request received")
-    return "Siri Pro API Endpoint. Please visit https://github.com/nelsonGX/siri-pro for more information."
+    return "Siri Pro API Endpoint. Please visit https://github.com/MagicTeaMC/siri-pro-gemini for more information."
 
 @app.route('/check' , methods=['GET'])
 async def check():
@@ -53,4 +53,4 @@ async def return_value():
 
 if __name__ == '__main__':
 
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port="15240")

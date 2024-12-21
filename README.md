@@ -1,11 +1,11 @@
 # Siri Pro
 
-An improved Siri, working with Anthropic Claude.
+An improved Siri, working with Google Gemini.
 
 # Run
 
 First, fill in the `.env.example` file and rename it to `.env`
-An Anthropic API Key is required. Get it here: https://console.anthropic.com/login
+An GEMINI API Key is required. Get it here: https://console.anthropic.com/login
 
 Second, you have to install requirements and run the server.
 
